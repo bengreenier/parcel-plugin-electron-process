@@ -1,0 +1,31 @@
+{
+  "name": "parcel-plugin-electron-process",
+  "version": "1.0.0",
+  "description": "Parcel development plugin that spawns and re-spawns an electron process. 🧬📦⚙",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "parcel",
+    "plugin"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "cross-spawn-with-kill": "^1.0.0",
+    "find-up": "^4.1.0"
+  }
+}
